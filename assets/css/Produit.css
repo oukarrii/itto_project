@@ -1,0 +1,325 @@
+@font-face {
+    font-family: "PowerGrotesk";
+    src: url("../font/PowerGrotesk-Regular.woff");
+ }
+ @font-face {
+    font-family:"Maveric" ;
+    src: url("../font/maveric-regular.woff");
+ }
+@font-face {
+    font-family: "MarkPro";
+    src: url("../font/MarkPro.woff");
+}
+
+@font-face {
+    font-family: "MarkPro-Bold";
+    src: url("../font/MarkPro-Bold.woff");
+}
+
+@font-face {
+    font-family: "MarkPro-Medium";
+    src: url("../font/MarkPro-Medium.woff");
+}
+
+@font-face {
+    font-family: "MarkPro-Bold";
+    src: url("../font/MarkPro-Bold.woff");
+}
+
+@font-face {
+    font-family: "Beauty";
+    src: url("../font/BeautyDemo.woff");
+}
+
+
+.header{
+    height: 80vh;
+}
+
+.header .menu_style{
+    padding: 100px;
+    width: 800px;
+    height: 530px;
+    border-top-right-radius: 0cqmax;
+    border-bottom-left-radius: 0cqmax;
+    outline: none;
+ }     
+ .header .menu_style li {
+ 
+    text-align: center;
+    justify-content: center;
+ }
+
+.header .Name_c{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 300px;
+    font-size: 2.8em   ;
+    font-family: "PowerGrotesk";
+    
+  }
+
+.text p{
+    
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 70px;
+    font-family: "PowerGrotesk";
+    margin-bottom: 50px;
+}
+
+.produit_nav div a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.produitt{
+    margin-top: 40px;
+}
+.produitt   .first{
+    position: relative;
+    left: 30%;
+
+}
+
+.retour{
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+.produitt .retour a{
+    font-family: "MarkPro";
+    font-size: 20px;
+    font-weight: 700;
+    color: #7575c1;
+}
+.textt h3{
+    font-family: "PowerGrotesk";
+    font-size: 2.6rem;
+    color: #342d3b;
+    margin-bottom: 40px;
+
+}
+.textt p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #565656;
+    font-family: "MarkPro";
+}
+.titre h1{
+    font-size: 5rem;
+    font-family: "MarkPro";
+    color: #e198af;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.produitt .autre a{
+    color: black;
+}
+
+
+@media screen and (max-width:1199px) {
+    .header{
+        height: 550px;
+    }
+    .text_prop{
+        margin-bottom: 120px;
+    }
+    .text_prop h2{
+        font-size: 3rem;
+    }
+    .text_prop h3{
+        line-height: 60px;
+        
+        font-size: 1.8rem;
+        padding: 20px;
+        margin-left: 20px;
+
+    }
+    .header .menu_style{
+        padding: 50px;
+        width: 800px;
+        border-top-right-radius: 0cqmax;
+        border-bottom-left-radius: 5cqmax;
+        height: 550px;
+        outline: none;
+     }     
+     .header .menu_style li {
+        text-align: center;
+     }
+}
+
+
+@media screen and (max-width:1280px) {
+    .header{
+        height: 550px;
+    }
+    .header .menu_style{
+        padding: 130px;
+        width: 1000px;
+        border-top-right-radius: 0cqmax;
+        border-bottom-left-radius: 5cqmax;
+        height: 550px;
+        outline: none;
+     }     
+     .header .menu_style li {
+        text-align: center;
+     }  
+  
+    }
+@media screen and (max-width:1024px) {
+    .header{
+        height: 475px;
+    }
+    .header .menu_style{
+        padding: 10px;
+        width: 1000px;
+        border-top-right-radius: 0cqmax;
+        border-bottom-left-radius: 0cqmax;
+        height: 475px;
+        outline: none;
+     }     
+     .header .menu_style li {
+        text-align: center;
+        font-size: 15px;
+     }
+     .header .menu_style li a{
+
+        font-size: 25px;
+     }
+}
+@media screen and (max-width:991px) {
+    .header{
+        height: 470px;
+    }
+    .header .menu_style{
+        padding: 50px;
+        width: 1000px;
+        height: 469px;
+        border-top-right-radius: 0cqmax;
+        border-bottom-left-radius: 0cqmax;
+        outline: none;
+     }     
+     .header .menu_style li {
+        text-align: center;
+     }
+     
+    
+    
+     .nav_footer li a{
+        margin: 10px;
+    }
+    .text_prop{
+        margin-bottom: 60px;
+    }
+    .text_prop h2{
+        font-size: 3rem;
+    }
+    .text_prop h3{
+        line-height: 40px;
+    
+        font-size: 1.8rem;
+        padding: 20px;
+        margin-left: 20px;
+
+    }
+    .footer ul li {
+        margin: 5px;
+    }
+}
+@media screen and (max-width:768px) {
+    .header{
+        height: auto;
+    }
+    
+    .header .menu_style{
+        padding: 45px;
+        width: 800px;
+        border-top-right-radius: 0cqmax;
+        border-bottom-left-radius: 5cqmax;
+        height: auto;
+        outline: none;
+     }     
+     .header .menu_style li a {
+        text-align: center;
+        font-size: 26px;
+        margin: 10px;
+    }   
+    .header .menu_style li {
+        text-align: center;
+        margin: 0 auto;
+        margin: 15px;
+    }
+    .footer ul li {
+        margin: 15px;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .header{
+        height: 375px;
+    }   
+    p{
+        font-size: 1.1rem;
+    }
+   
+    .header .Name_c{
+        font-size: 2em ;    
+        text-align: center;
+      }
+
+      .produit_nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .header .menu_style{
+        padding: 50px;
+        width: 500px;
+        height: 375px;
+        outline: none;
+     }     
+     .header .menu_style li a {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-left:25%;
+     
+        
+     }  
+     /* items */
+     .produitt   .first{
+        left: 20%;
+    }
+    .produitt .retour a{
+
+        font-size: 16px;
+        font-weight: 900;
+     
+    }
+     .titre h1{
+        font-size: 3.9rem;
+    }
+    
+    .autre{
+        position: relative;
+        left: 22%;
+    }
+   
+    .textt h3{
+    
+        font-size: 2.4rem;
+        margin-bottom: 50px;
+    
+    }
+
+ 
+
+} 

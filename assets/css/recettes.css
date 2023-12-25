@@ -1,0 +1,393 @@
+@font-face {
+    font-family: "PowerGrotesk";
+    src: url("../font/PowerGrotesk-Regular.woff");
+ }
+ @font-face {
+    font-family:"Maveric" ;
+    src: url("../font/maveric-regular.woff");
+ }
+@font-face {
+    font-family: "MarkPro";
+    src: url("../font/MarkPro.woff");
+}
+
+@font-face {
+    font-family: "MarkPro-Bold";
+    src: url("../font/MarkPro-Bold.woff");
+}
+
+@font-face {
+    font-family: "MarkPro-Medium";
+    src: url("../font/MarkPro-Medium.woff");
+}
+
+@font-face {
+    font-family: "MarkPro-Bold";
+    src: url("../font/MarkPro-Bold.woff");
+}
+
+@font-face {
+    font-family: "Beauty";
+    src: url("../font/BeautyDemo.woff");
+}
+
+
+.header{
+    height: 80vh;
+}
+
+.header .menu_style{
+    padding: 100px;
+    width: 800px;
+    height: 530px;
+    border-top-right-radius: 0cqmax;
+    border-bottom-left-radius: 0cqmax;
+    outline: none;
+ }     
+ .header .menu_style li {
+ 
+    text-align: center;
+    justify-content: center;
+ }
+
+ .header .Name_c{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 300px;
+    font-size: 2.8em   ;
+    font-family: "PowerGrotesk";
+    
+}
+
+.pratoique{
+    margin-top: 39px;
+    padding-bottom: 30px;
+    position: relative;
+}
+.pratoique  ul li a{
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-family: "MarkPro";
+    border: none;
+    color: black;
+    font-weight: 500;
+}
+
+.pratoique ul{
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ec9bad;
+}
+
+.pratoique  .nav-tabs .nav-link.active{
+    border-bottom: 2px solid seagreen;
+    position: relative;
+
+    
+}
+
+.prepare a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+
+}
+.prepare .name{
+    position: absolute;
+    padding: 20px;
+    top: 80px;
+}
+.prepare .name p{
+    font-family:"MarkPro";
+    font-size: 20px;
+    font-weight: 500;
+}
+.prepare .name h1{
+    font-size: 35px;
+    font-family: "MarkPro";
+    font-weight: 850;
+
+}
+
+.ma9adir{
+    margin-top: 50px;
+}
+.name_2 p{
+    font-family:"MarkPro";
+    font-size: 20px;
+    font-weight: 500;
+}
+.name_2 h1{
+    font-size: 35px;
+    font-family: "MarkPro";
+    font-weight: 850;
+}
+.line a{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "MarkPro";
+}
+.ma9ader_item h1{
+    font-size: 26px;
+    font-family: "MarkPro";
+    font-weight: 500;
+    color: #ec9bad;
+}
+.ma9adir iframe{
+    width:560px;
+    height:315px;
+}
+.ma9ader_item ul {
+    list-style-type: none;
+    position: relative;
+}
+.ma9ader_item ul li{
+    color: #915e69;
+    font-size: 16px;
+    margin: 15px;
+    font-family: "MarkPro";
+    font-weight: 300;
+}
+.ma9ader_item ul li::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    background-color: #e6aabd;
+    width: 10px;
+    height: 10px;
+    display:block;
+    transform: rotate(45deg);
+}
+
+#fine{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+#fine p{
+    font-size: 16px;
+    font-family: "MarkPro";
+    font-weight: 200;
+}
+
+/* .pratoique ul li a:active{
+    content: "";
+    background-color: #ec9bad;
+    width: 70%;
+    
+    height: 20%;
+} */
+
+@media screen and (max-width:1280px) {
+    .header{
+        height: 550px;
+    }
+    .header .Name_c{
+        font-size: 2.2em   ;
+        text-align: center;
+        
+    }
+    .header .menu_style{
+        padding: 130px;
+        width: 1000px;
+        border-top-right-radius: 0cqmax;
+        border-bottom-left-radius: 5cqmax;
+        height: 550px;
+        outline: none;
+     }     
+     .header .menu_style li {
+        text-align: center;
+        
+        
+     }  
+     .nav_footer ul li{
+        margin: 10px;
+        font-size: 1.6rem;
+    }
+
+    .logo  ul{
+        display: flex ;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .logo ul li a{
+        font-size: 3rem;
+        color: #fff;
+        margin: 10px;
+        text-decoration: none;
+    }
+    
+    }
+@media screen and (max-width:991px) {
+    .header{
+        height: 470px;
+    }
+    .header .menu_style{
+        padding: 50px;
+        width: 1000px;
+        height: 469px;
+        border-top-right-radius: 0cqmax;
+        border-bottom-left-radius: 0cqmax;
+        outline: none;
+     }     
+     .header .menu_style li {
+        text-align: center;
+     }}
+     .nav_footer ul li{
+        margin: -10px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .logo  ul{
+        display: flex ;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .logo ul li a{
+        color: #fff;
+        font-size: 25px;
+        margin: 10px;
+        text-decoration: none;
+    }
+     /* position: fixed;
+     top: 0;
+     right: 0;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background: #7272ef;
+     overflow-y: auto;
+     transition: 0.4s ease;
+     border-radius: 0;
+     -webkit-transition: 0.4s ease; */
+     
+@media screen and (max-width:1024px) {
+    .header{
+        height: 476px;
+    }
+    .header .Name_c{
+        font-size: 2.8em   ;
+        
+    }
+    
+    .header .menu_style{
+        padding: 110px;
+        width: 1000px;
+        border-top-right-radius: 0cqmax;
+        border-bottom-left-radius: 0cqmax;
+        height: 475px;
+        outline: none;
+     }     
+     .header .menu_style li {
+        text-align: center;
+        font-size: 2rem;
+        
+     }
+     .header .menu_style li a{
+
+        font-size: 25px;
+     }
+
+    }
+@media screen and (max-width:768px) {
+    .header{
+        height: auto;
+    }
+    .header .Name_c{
+        font-size: 2.4em   ;
+        
+    }
+    .header .menu_style{
+        padding: 45px;
+        width: 1000px;
+        border-top-right-radius: 0cqmax;
+        border-bottom-left-radius: 5cqmax;
+        
+        height: 400px;
+        outline: none;
+     }     
+     .header .menu_style li a {
+        text-align: center;
+        font-size: 1.8rem;
+        margin-left:30%;
+      
+
+     }
+}
+
+@media screen and (max-width:576px) {
+     .header{
+        height: 475px;
+     
+    }   
+
+    .header .Name_c{
+        font-size: 2em ;    
+      }
+      .header .menu_style{
+        padding: 110px;
+        width: 1000px;
+        
+        border-top-right-radius: 0cqmax;
+        border-bottom-left-radius: 0cqmax;
+        height: 475px;
+        outline: none;
+     }     
+     .header .menu_style li a {
+        text-align: center;
+
+        font-size: 15px;
+     }
+     .header .menu_style li a{
+
+        font-size: 25px;
+     }
+     .ma9adir iframe{
+        width:350px;
+        height:200px;
+    }
+    
+    .name_2 h1{
+        font-size: 30px;
+    }
+    .line a{
+        font-size: 22px;
+             font-weight: 600;
+        font-family: "MarkPro";
+    }
+    .ma9ader_item h1{
+        font-size: 26px;
+        font-family: "MarkPro";
+        font-weight: 500;
+        color: #ec9bad;
+    }
+    .nav_footer ul li{
+        margin: 10px;
+    }
+
+    .logo  ul{
+        display: flex ;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .logo ul li a{
+        font-size: 25px;
+        color: #fff;
+        margin: 10px;
+        text-decoration: none;
+    }
+    .pratoique .nav{
+        display: block;
+    }
+    .pratoique .nav li a{
+        margin: 10px;
+}
+
+}

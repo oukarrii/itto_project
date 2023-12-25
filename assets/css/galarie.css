@@ -1,0 +1,227 @@
+@font-face {
+    font-family: "PowerGrotesk";
+    src: url("../font/PowerGrotesk-Regular.woff");
+ }
+ @font-face {
+    font-family:"Maveric" ;
+    src: url("../font/maveric-regular.woff");
+ }
+@font-face {
+    font-family: "MarkPro";
+    src: url("../font/MarkPro.woff");
+}
+
+@font-face {
+    font-family: "MarkPro-Bold";
+    src: url("../font/MarkPro-Bold.woff");
+}
+
+@font-face {
+    font-family: "MarkPro-Medium";
+    src: url("../font/MarkPro-Medium.woff");
+}
+
+@font-face {
+    font-family: "MarkPro-Bold";
+    src: url("../font/MarkPro-Bold.woff");
+}
+
+@font-face {
+    font-family: "Beauty";
+    src: url("../font/BeautyDemo.woff");
+}
+
+
+.header{
+    height: 80vh;
+}
+.header .menu_style{
+    padding: 100px;
+    width: 800px;
+    height: 530px;
+    border-top-right-radius: 0cqmax;
+    border-bottom-left-radius: 0cqmax;
+    outline: none;
+ }     
+ .header .menu_style li {
+ 
+    text-align: center;
+    justify-content: center;
+ }
+
+ .header .Name_c{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 300px;
+    font-size: 2.8em   ;
+    font-family: "PowerGrotesk";
+    
+}
+.mo_img{
+    margin-top: 50px;
+}
+
+
+.text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    bottom: 20px;
+    padding: 30px;
+    color: #fff;
+    font-size: 2.1rem;
+    font-weight: 900;
+    font-family:"PowerGrotesk" ;
+    cursor: pointer;
+}
+
+.img{
+    position: relative;
+    overflow: hidden;
+}
+/* items */
+.flow h3{
+    font-size: 2.5rem;
+    color:#e198af;
+
+    font-family: "MarkPro";
+}
+.image a{
+    margin-top: 20px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+@media screen and (max-width:1280px) {
+    .header{
+        height: 550px;
+    }
+    .header .menu_style{
+        padding: 130px;
+        width: 1000px;
+        border-top-right-radius: 0cqmax;
+        border-bottom-left-radius: 5cqmax;
+        height: 550px;
+        outline: none;
+     }     
+     .header .menu_style li {
+        text-align: center;
+     }  
+  
+    }
+@media screen and (max-width:991px) {
+    .header{
+        height: 470px;
+    }
+    .header .menu_style{
+        padding: 50px;
+        width: 1000px;
+        height: 469px;
+        border-top-right-radius: 0cqmax;
+        border-bottom-left-radius: 0cqmax;
+        outline: none;
+     }     
+     .header .menu_style li {
+        text-align: center;
+     }
+    }
+
+@media screen and (max-width:1024px) {
+    .header{
+        height: 475px;
+    }
+    .header .menu_style{
+   
+        padding: 110px;
+        width: 1000px;
+        border-top-right-radius: 0cqmax;
+        border-bottom-left-radius: 0cqmax;
+        height: 475px;
+        outline: none;
+     }     
+     .header .menu_style li {
+        text-align: center;
+        font-size: 15px;
+     }
+     .header .menu_style li a{
+
+        font-size: 25px;
+     }
+     .text {
+       
+        padding: 30px;
+        left: 0;
+        bottom: 0;
+        font-size: 1.8rem;
+        font-weight: 700;
+        font-family:"PowerGrotesk" ;
+        cursor: pointer;
+    }
+    .nav_footer li a{
+       
+        margin: 16px;
+    
+    }
+    
+   
+}
+
+@media screen and (max-width:768px) {
+    .header{
+        height: auto;
+    }
+    .header .Name_c{
+        font-size: 2.4em   ;
+        
+    }
+    .header .menu_style{
+        padding: 45px;
+        width: 1000px;
+        border-top-right-radius: 0cqmax;
+        border-bottom-left-radius: 5cqmax;
+        
+        height: 400px;
+        outline: none;
+     }     
+     .header .menu_style li a {
+        text-align: center;
+        font-size: 1.8rem;
+        margin-left:30%;
+      
+
+     }
+}
+@media screen and (max-width:576px) {
+    .header{
+        height: auto;
+    }   
+
+    .header .Name_c{
+        font-size: 2em ;    
+      }
+      .header .menu_style{
+        padding: 50px;
+        width: 500px;
+        height: 375px;
+        outline: none;
+     }     
+     .header .menu_style li a {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-left:25%;
+     }
+     .text {
+       
+        padding: 30px;
+        left: 0;
+        bottom: 0;
+        font-size: 1.2rem;
+        font-weight: 700;
+        font-family:"PowerGrotesk" ;
+        cursor: pointer;
+    }
+    
+    }

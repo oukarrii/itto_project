@@ -1,0 +1,1513 @@
+ @font-face {
+    font-family: "PowerGrotesk";
+    src: url("../font/PowerGrotesk-Regular.woff");
+ }
+ @font-face {
+    font-family:"Maveric" ;
+    
+    src: url("../font/maveric-regular.woff");
+ }
+@font-face {
+    font-family: "MarkPro";
+    src: url("../font/MarkPro.woff");
+}
+
+@font-face {
+    font-family: "MarkPro-Bold";
+    
+    src: url("../font/MarkPro-Bold.woff");
+}
+
+@font-face {
+    font-family: "MarkPro-Medium";
+    src: url("../font/MarkPro-Medium.woff");
+}
+
+@font-face {
+    font-family: "MarkPro-Bold";
+    src: url("../font/MarkPro-Bold.woff");
+}
+
+@font-face {
+    font-family: "Beauty";
+    src: url("../font/BeautyDemo.woff");
+}
+body{
+    margin: 40x;
+    padding: 0;
+}
+
+.header{
+    background-image: url('../photos/gg_1.jpg') ;
+    background-position: center;
+    background-size: cover;
+
+    
+}
+.header .text{
+            color: aliceblue;
+        margin-top: 12%;
+}
+.header .text h1{
+    font-size: 80PX;
+    line-height: 50px;
+    text-transform:lowercase ;
+    line-height: 80px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-family: "PowerGrotesk";
+   
+}
+.header .text h1::first-letter{
+    text-transform: uppercase;
+}
+
+.header .text strong{
+    font-family: 'maveric';
+    color: #ec9bad;
+    
+    font-size: 1.7em;
+}
+
+
+
+.header .btn{
+    font-family: "PowerGrotesk";
+    text-transform: lowercase;
+    font-size: 19px;
+    color: #fff;
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #ec9bad;
+    border-radius: 50px;
+    margin-bottom: 40px;
+}
+.header .btn:hover{
+    background-color:#e198af ;
+}
+.header .btn .small{
+        margin-left: 10px;
+       transform: scale(0.6);
+}
+
+/* hamburger */
+.rurger_bars_menu{
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+
+}
+.rurger_bars_menu h5{
+    color: #fff;
+    font-family: "markPro-meduime";
+    text-transform: uppercase;
+    font-size: 12px;
+  
+    margin-top: 10px;
+    text-align: right;
+    justify-content: center;
+    font-weight: 250;
+}
+.hamburger{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   cursor: pointer;
+   width: 60px ; 
+   height: 28px;
+   margin: 16px;
+   position: relative;
+ 
+}
+.hamburger .bar{
+    
+    background-color:#9e8e71;
+    height: 3px;
+    width: 55px;
+    
+    
+}
+
+.hamburger .bar:nth-child(2){
+    width: 35px;
+    right: 5px;
+    top: 12px;
+    position: absolute;
+    margin: 0  auto;
+
+
+}
+.header .ul_nav{
+    display: none;  
+}
+/* navresponsive */
+.header .menu_style  li a{
+    text-decoration: none;
+    color:#fff;
+    
+    font-size: 2rem;
+    line-height: inherit;
+    white-space: nowrap;
+    font-weight: 800;
+    font-family: "PowerGrotesk";
+
+}
+.header .menu_style a::first-letter{
+    text-transform: uppercase;
+}
+
+.header .menu_style{
+    position: absolute;
+    z-index: 1;
+    padding: 100px;
+    outline:2px solid #fff;
+    color:#fff;
+    justify-content: space-between;
+    border-top-right-radius: 10px;
+    background-color: #3e6ceb;
+    width: 700px;
+    height: 650px;
+    border-top-left-radius:50cqmax;
+    border-bottom-left-radius: 0cqmax;
+}
+.header .menu_style li{
+    text-align: center;
+    margin: 20px;
+    
+}
+.cross .bar:nth-child(2){
+    opacity: 0;
+    
+}
+.cross .bar:first-child{
+    transition: all 0ms 300ms;
+ 
+    animation-delay: 0.5s;
+    transform:  rotate(-40deg) translate(-8px ,8px);
+
+}
+
+
+
+.cross .bar:last-child{
+    transition: all 0ms 300ms;
+    transform: rotate(40deg) translate(-10px ,-9px);
+}
+
+
+
+.header .ul_nav{
+    display: none;  
+}
+/* logo center */
+.header .img_f{
+    margin: 0 auto;
+}
+/*  img*/
+.hero .img2{
+    position: absolute;
+    
+    right: 0;
+    
+}
+.hero .img1 {
+    right:-40px;
+    position:relative ;
+    
+ 
+}
+.showcase{
+    position: absolute;
+    opacity: 0.3;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+                                              /* about */
+
+
+.about{
+
+    background-color: rgba(165, 14, 64, 0.562);
+
+}
+.text-2{
+    background-color: aliceblue;
+    max-width: 100;
+    height: 450px;
+    position: relative;
+   
+}
+.text_about strong{
+    color:#e198af;
+}
+.img_about img{
+    position: relative;
+    height: 75%;
+    left: 2.8%;
+    top: -80px;    
+    width: 100%;
+}
+
+.jabaniya{
+    padding: 25px;
+    position: absolute; 
+    top:-40px ;
+    right: 0;
+    width: 35%;
+    height:35%;
+}
+.text_about{
+    padding: 60px;
+    position: relative;
+ 
+}
+.text_about h1{
+    margin-bottom: 50px;
+    color: #7575c1;
+    font-weight: 800;
+    font-family: "PowerGrotesk";
+}
+.text_about p{
+    font-family: "MarkPro";
+}
+
+.text_about .btn:hover{
+    background-color:#2121b4c9;
+    color:#fff;
+ 
+}
+.text_about .btn{
+
+    text-decoration: none;
+    position: absolute;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: "PowerGrotesk";
+    text-align: center;
+    background-color:#2121b4c9;
+    color: #fff;
+    padding: 15px;
+    width: 400px;
+    right: 80px;
+    bottom: -100px;
+}
+
+
+/* pro */
+.pro{
+   
+    margin-top:150px;
+    padding: 30px;
+}
+.pro h1{
+    margin-top: -285px;
+    margin-left: -60px;
+    font-size:5rem ;
+    color: #7575c1;
+    font-weight: 600;
+    font-family: "PowerGrotesk";
+
+}
+.pro h1 span{
+    color: #fff;
+    font-size:5rem ;
+
+}
+.home-demo{
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.pro .home-demo .owl-carousel{
+    display: inline-flex;
+}
+.pro .home-demo .item a {
+    text-decoration: none;
+    color: black;
+
+}
+.pro .home
+.home-demo h2 {
+    /* margin-top: 400=p; */
+    color: black;
+    font-family: "MarkPro-Bold";   
+    font-size: 1.2rem;
+ 
+    text-align: center;
+ 
+    margin: 0;
+    font-style: italic;
+    font-weight: 300;
+}
+
+
+
+
+/* test */
+.pratique{
+    margin-top: 120px;
+
+}
+.test_text  h2{
+    margin-bottom: 20px;
+    text-align: start;
+    font-size: 5rem;
+    font-family:"PowerGrotesk";
+    font-weight: 500;
+    color: #7575c1;
+    line-height: 30px;
+  
+
+
+}
+.test_text h2  > span {
+    font-family:'Beauty';
+    color: #e198af;
+    line-height: 30px;
+    font-size: 2em ; 
+    font-weight: 10;
+    
+    
+ 
+}
+
+/* .pratique .img_1 img{
+    width: 20%;
+    height: 100%;
+} */
+.pratique .back_1{
+    opacity: 0.21;
+    max-height:400px ;
+    position: absolute;
+}
+.pratique .img_2 {
+    position: relative;
+    margin-left:-60px ;
+
+}
+.pratique .img_1{
+    margin-top: -100px;
+}
+.test_text {
+    position: relative;
+}
+
+.test_text .text-up{
+    display: block;
+    bottom:0px ; 
+    font-size: 16px;
+    font-family: "MarkPro";
+    color: #FFF;
+    position: absolute;
+}
+
+.parte_2 .text_col {
+    
+    margin-top: 100px;
+}
+.text_col h5{
+    font-size: 1.25rem;
+    font-family: 'MarkPro-Bold';
+    
+}
+.text_col h6{
+    font-family: 'Markpro-Bold';
+    opacity: 0.4;
+}
+.parte_2 .img_g{
+    margin-top: 80px;
+}
+/* footer */
+.footer{
+    position: relative;
+    padding: 100px 0 20px 0;
+
+   
+}
+.footer::before{
+    background-color: #7575c1;
+    content: "";
+    position: absolute;
+    margin: 0 auto;
+    z-index: -1;
+    width: 100%;
+    height: 80%;
+    border-radius: 50% 50% 0 0 / 50% 50% 0 0;
+
+}
+.center_footer{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+}
+
+.footer .sonbola_1{
+    position: absolute;
+    left: 35%;
+    width: 300px;
+    top:-60px ; 
+}
+.logo_1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.nav_footer  ul{
+    display: flex ;
+
+}
+.nav_footer li a{
+    font-family: "MarkPro";
+    font-weight: 600;
+    text-decoration: none;
+    margin: 45px;
+    color: #fff;
+    list-style: none;
+}
+
+
+.logo  ul{
+    margin-top: 30px;
+    display: flex ;
+}
+.logo ul li a{
+    color: #fff;
+    margin: 16px;
+    text-decoration: none;
+    
+}
+                      /* ********************** MEDIA *************************** */
+
+@media screen and (max-width:1199px){
+
+            /****************************header =*******************/
+                                
+                                .rurger_bars_menu h5{
+                                    font-size: 12px;
+                                    font-weight: 350;
+                                }
+                                .hamburger{
+                                    width: 57px ; 
+                                    margin-right: 20%;
+                                }
+
+                                .hamburger .bar{
+                                    height: 3px;
+                                    width: 45px;
+                                    margin: 1.8px;
+                                }
+                                .header .menu_style  a{
+                                    font-size: 1.8rem;   
+                                    font-weight: 700;
+                                
+                                }
+                                .header .menu_style{
+                                    padding: 120px;
+                                    width: 400px;
+                                    height: 500px;
+                                }
+                                .header .text h1{
+                                    font-size: 55px;
+                                    font-weight: 550;
+                                
+                                }
+                                .header .text strong{
+                                    font-size: 1.2em;
+                                }
+                                .header .btn{
+                                    padding: 14px;
+                                    font-size: 18px;
+                                    font-weight: 450;
+                                    margin-top: 10%;
+                                    width: 55%;
+                                    border-radius: 90px;
+                                }
+                                .header .img_f{
+                                    margin: 0 auto;
+                                }
+                                /*  img*/
+                                .hero .img2{
+                                    position: absolute;
+                                    top: 100px;
+                                    right: -20px;
+                               
+                                }
+                                .hero .img1 {
+                                    right:-40px;
+                            
+                                }
+            /* *********************************about***************************** */
+                                    .about{
+                                        background-color: rgba(165, 14, 64, 0.562);
+                                   
+                                    }
+                                    .text-2{
+                                        background-color: #FFF;
+                              
+                                        position: relative;
+                                    
+                                    }
+                                    .text_about strong{
+                                        color:#e198af;
+                                    }
+                                    
+                                    .img_about img{
+                             
+                                        left: 3%;
+                                        top: -60px;    
+                                
+                                    }
+                                    
+                                    .jabaniya{
+                                        padding: 25px;
+                                        position: absolute; 
+                                        top:-40px ;
+                                        right: 0;
+                                
+                                     
+                                    }
+                                    .text_about{
+                                        padding: 30px;
+                                        position: relative;
+                                        height: 400px;
+                                    
+                                    }
+                                    .text_about h1{
+                                        margin-bottom: 30px;
+                                        color: #7575c1;
+                                        font-weight: 500;
+                                    }
+                                    
+                                    
+                                    .text_about .btn{
+                                        margin-bottom: 10px;
+                                        font-size: 1rem;
+                                        width: 250px;
+                                    }
+                                    .text_about .flech{
+                                        transform: scale(0.6);
+                                    }
+
+
+            /* **************************************pro********************* */
+
+                                        .pro{
+                                            margin-top:150px;
+                                            padding: 30px;
+                                        }
+                                        .pro h1{
+                                            margin-top: -280px;
+                                            font-size:2.8rem ;
+                                            color: #7575c1;
+                                            font-weight: 650;
+                                            margin-left: 30px;
+                                        
+                                        }
+                                        .pro h1 span{
+                                            color: #fff;
+                                        }
+                                        .home-demo{
+                                            /* padding: 50px; */
+                                    
+                                            margin-top: 130px;
+                                        }
+                                        
+                                        .home-demo h2 {
+                                            /* margin-top: 400=p; */
+                                            color: black;
+                                            font-size: 1rem;
+                                            font-style: italic;
+                                            font-weight: 450;
+                                        }
+
+
+            /* *****************************test******************** */
+                                        .pratique{
+                                            margin-top: 135px;
+                                        
+                                        }
+                                        .test_text  h2{
+                                            font-size: 5em;
+                                            font-weight: 600;
+                                            top:-60px;
+                                            letter-spacing: 2px;
+                                            position: relative;
+                                        
+                                        }
+                                        .test_text h2 > span {
+                                        
+                                            letter-spacing: 1.7px;
+                                            font-size: 3em;
+                                        }
+                                    
+                                        .pratique .back_1{
+                                            opacity: 0.20;
+                                        }
+                                        .pratique .img_2 {
+                                      
+                                            top: -50px;
+                                            margin-left:-60px ;
+                                      
+                                        }
+                                        .pratique .img_1{
+                                            margin-top: 0;
+                                        }
+                                        .test_text .text-up{
+                                            font-size: 20px;
+                                            position: absolute;
+                                            display: block;
+                                            bottom:9px ; 
+                                            color: #fff;
+                                        }
+                                        .parte_2{
+                                            margin-top: 100px;
+                                        }
+                                
+                                        .text_col h5{
+                                            font-size: 1.2rem;
+                                            font-weight: 600;
+                                            line-height: inherit;
+                                            white-space: nowrap;
+                                            font-family: 'PowerGrotesk';
+                                            
+                                        }
+                                        .text_col h6{
+                                    
+                                            opacity: 0.3;
+                                        }
+                                        .parte_2 .img_g{
+                                            margin-bottom: 70px;
+                                        }
+                
+
+
+}
+
+@media screen and (max-width:1280px){
+    .text-2{
+        height: 460px; 
+    }
+    .header .menu_style{
+        padding: 100px;
+        width: 800px;
+        height: 530px;
+        border-top-right-radius: 0cqmax;
+        border-bottom-left-radius: 0cqmax;
+        outline: none;
+     }     
+     .header .menu_style li {
+     
+        text-align: center;
+        justify-content: center;
+     }
+}
+@media screen and (max-width:1024px){
+    .header .menu_style{
+        padding: 130px;
+        width: 1000px;
+        border-top-right-radius: 0cqmax;
+        border-bottom-left-radius: 0cqmax;
+
+        height: 620px;
+        outline: none;
+     }     
+     .header .menu_style li {
+        text-align: center;
+        margin: 10px;  
+     }
+}
+
+@media screen and (max-width:991px){ 
+                              /****************************header =*******************/
+                            
+                            .rurger_bars_menu h5{
+                                font-size: 12px;
+                                font-weight: 400;
+                            }
+                            .hamburger{
+                                width: 60px ; 
+                                margin-right: 20%;
+                            }
+
+                            .hamburger .bar{
+                                height: 3px;
+                                width: 50px;
+                                margin: 2px;
+                            }
+                            .header .menu_style  a{
+                                font-size: 1.8rem;   
+                                font-weight: 700;
+                            
+                            }
+                            .header .menu_style li:hover{
+                               transform: scale(1,1.6);
+                            
+                            }
+                            .header .menu_style{
+                                padding: 100px;
+                                width: 800px;
+                                height: 530px;
+                                border-top-right-radius: 0cqmax;
+                                border-bottom-left-radius: 0cqmax;
+                                outline: none;
+                             }     
+                             .header .menu_style li {
+                             
+                                text-align: center;
+                                justify-content: center;
+                             }
+                            .header .text h1{
+                                font-size: 50px;
+                                font-weight: 520;
+                            
+                            }
+                            .header .text strong{
+                                font-size: 1.2em;
+                            }
+                            .header .btn{
+                                padding: 11px;
+                                font-size: 19px;
+                                font-weight: 400;
+                                margin-top: -10%;
+                                width: 55%;
+                                border-radius: 90px;
+                            }
+                            .header .img_f{
+                                margin: 0 auto;
+                            }
+                            /*  img*/
+                            .hero .img2{
+                                position: absolute;
+                                top: 80px;
+                                width: 400px;
+                                right: -16px;
+                        
+                            }
+                            .hero .img1 {
+                                right:-80px;
+                             
+                            
+                            
+                            }
+        /* *********************************about***************************** */
+                                .about{
+                                    background-color: #fff;
+                                    height: auto;
+                                }
+                                .text-2{
+                                    background-color:#fff;
+                                    position: relative;
+                                    margin-top: -300px;
+                                    /* margin-bottom: 100px; */
+                                
+                                }
+                             
+                                .text_about strong{
+                                    color:#e198af;
+                                }                        
+                                .img_about img{
+                                    top: 0px;    
+                                }
+                                
+                                .jabaniya{
+                                    padding: 25px;
+                                    position: absolute; 
+                                    top:-180px ;
+                                    right: 0;
+                                    transform: scale(0.8);
+                               
+                                }
+                                .text_about{
+                                    font: 16px;
+                                    padding: 45px;
+                                    position: relative;
+                                    height: 500px;
+                                
+                                }
+                                .text_about h1{
+                                    font-size: 4rem;
+                                    margin-bottom: 20px;
+                                    color: #7575c1;
+                                    font-weight: 600;
+
+                                }
+                                
+                                .text_about p{
+                                    font-size: 18px;
+                                }
+                                .text_about .btn{
+                                    font-size: 1.2rem;
+                                    width: 250px;
+                                    position: unset;
+                                }
+                                .text_about .flech{
+                                    transform: scale(0.6);
+                                }
+
+
+        /* **************************************pro********************* */
+
+                                    .pro{
+                                        
+                                        margin-top:0px;
+                                        position: relative;
+                                        padding: 30px;
+                                    }
+                                    .pro h1{
+                                        margin-top: 0px;
+                                        font-size:4rem ;
+                                        color: #7575c1;
+                                        font-weight: 550;
+                                
+                                    
+                                    }
+                                    .pro h1 span{
+                                        color: black;
+                                    }
+                                    .home-demo{
+                                        /* padding: 50px; */
+                                
+                                        margin-top: 100px;
+                                    }
+                                    
+                                    .home-demo h2 {
+                                        /* margin-top: 400=p; */
+                                        color: black;
+                                        font-size: 1rem;
+                                        font-style: italic;
+                                        font-weight: 500;
+                                    }
+
+
+        /* *****************************test******************** */
+                                    .pratique{
+                                        margin-top: 125px;
+                                    
+                                    }
+                                    .test_text  h2{
+                                        font-size: 4rem;
+                                        font-weight: 550;
+                                        letter-spacing: 2px;
+                                        margin-bottom: 90px;
+                                    
+                                    }
+                                    .test_text h2 > span {
+                                    
+                                        letter-spacing: 2px;
+                                        font-size: 3.6em;
+                                    }
+                                
+                                    .pratique .back_1{
+                                        opacity: 0.20;
+                                    }
+                                    
+                                    .pratique .img_1{
+                                        margin-top: 0px;
+                                        
+                                 
+                                    }
+                                    .test_text .text-up{
+                                        display: block;
+                                        bottom:-40px ; 
+                                        color: #fff;
+                                    }
+                                    .parte_2{
+                                        margin-top: 140px;
+                                    }
+                            
+                                    .text_col h5{
+                                        font-size: 1rem;
+                                        line-height: inherit;
+                                        white-space: nowrap;
+                                        font-family: 'PowerGrotesk';
+                                        
+                                    }
+                                    .text_col h6{
+                                        font-family: 'PowerGrotesk';
+                                        opacity: 0.3;
+                                    }
+                                    .parte_2 .img_g{
+                                        margin-bottom: 70px;
+                                    }
+            /* **********************************footer******************** */
+        
+            .footer .sonbola_1{
+                position: absolute;
+                left: 30%;
+                top:-60px ; 
+                width: 300px;
+            }
+            .logo_1{
+                margin-top: 50px;
+                margin-bottom: 30px;
+            }
+            .nav_footer  ul{
+                display: flex ;
+                flex-wrap: wrap;
+                
+            }
+            .nav_footer ul li{
+                margin: -10px;
+            }
+    
+            .logo  ul{
+                display: flex ;
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+            .logo ul li a{
+                color: #fff;
+                margin: 20px;
+                text-decoration: none;
+            }
+
+
+}
+
+
+@media screen and (max-width:768px){ 
+    
+                        /****************************header =*******************/
+
+                    .rurger_bars_menu h5{
+                        font-size: 12px;
+                        font-weight: 400;
+                    }
+                    .hamburger{
+                        width: 60px ; 
+                        margin-right: 20%;
+                    }
+
+                    .hamburger .bar{
+                        height: 1.9px;
+                        width: 40px;
+                        margin: 4px;
+                     }
+                     .header .menu_style li a{
+                         font-size: 1.5rem;
+                         font-weight: 100;
+                     
+                     }
+                     .hamburger .bar{
+                         
+                         background-color:#9e8e71;
+                         height: 2px;
+                         width: 55px;
+                         
+                         
+                     }
+                     
+                     .hamburger .bar:nth-child(2){
+                         width: 35px;
+                         right: 3px;
+                         top: 12px;
+                         position: absolute;
+                         margin: 0  auto;
+                     
+                     
+                     }
+                    .header .menu_style li:hover{
+                        transform: scale(1,1.5);
+                    
+                    }
+                    .header .menu_style{
+                        padding: 100px;
+                        width: 800px;
+                        height: 530px;
+                        border-top-right-radius: 0cqmax;
+                        border-bottom-left-radius: 0cqmax;
+                        outline: none;
+                     }     
+                     .header .menu_style li {
+                     
+                        text-align: center;
+                        justify-content: center;
+                     }
+                    .header .text h1{
+                        font-size: 52px;
+                        font-weight: 530;
+                    
+                    }
+                    .header .text strong{
+                        font-size: 1.1em;
+                    }
+                    .header .btn{
+                        padding: 11px;
+                        font-size: 17px;
+                        font-weight: 300;
+                        margin-top: 0%;
+                        width: 65%;
+                        border-radius: 90px;
+                    }
+                    .header .img_f{
+                        margin: 0 auto;
+                        width: 160px;
+                    }
+                    /*  img*/
+                    .hero .img2{
+                        position: absolute;
+                        top: 120px;
+                        right: 0px;
+                       
+                    }
+                    .hero .img1 {
+                         right:10px; 
+                    
+                    }
+                    /* *********************************about***************************** */
+                        .about{
+                            background-color:#fff;
+                            /* height: 60vh; */
+                        }
+                        .text-2{
+                            background-color: #fff;
+                         
+                            top:-200px;
+                            position: relative;
+                        
+                        }
+                        .text_about strong{
+                            color:#e198af;
+                        }
+                        
+                        .img_about img{
+                            top: 0;   
+                        
+                        }
+                        
+                        .jabaniya{
+                            padding: 30px;
+                            position: absolute; 
+                            top:-70px;
+                          
+                            right: 0px;
+                     
+                        }
+                        .text_about{
+                            padding: 45px;
+                            position: relative;
+                        
+                        }
+                        .text_about h1{
+                            margin-bottom: 20px;
+                            color: #7575c1;
+                            font-weight: 600;
+                        }
+                        
+                        .text_about p{
+                            font-size: 18px;
+                            
+                        }
+                        .text_about .btn{
+                            position: unset;
+                            font-size: 1.1rem;
+                            width: 230px;
+                            margin-bottom: 28px;
+                            left: 43px;
+                        }
+                        .text_about .flech{
+                            transform: scale(0.7);
+                        }
+
+
+                    /* **************************************pro********************* */
+
+                            .pro{
+                                padding: 30px;
+                                margin-top:0px;
+                                position: relative;
+                            }
+                            .pro h1{
+                                margin-top: -200px;
+                                margin-left: 20px;
+                                font-size:4rem ;
+                                color: #7575c1;
+                                font-weight: 650;
+                        
+                            
+                            }
+                            .pro h1 span{
+                                color:black;
+                            }
+                            .home-demo{
+                                /* padding: 50px; */
+                        
+                                margin-top: 100px;
+                            }
+                            
+                            .home-demo h2 {
+                                /* margin-top: 400=p; */
+                                color: black;
+                                font-size: 1rem;
+                                font-style: italic;
+                                font-weight: 500;
+                            }
+
+
+                    /* *****************************test******************** */
+                            .pratique{
+                                margin-top: 125px;
+                            
+                            }
+                            .test_text  h2{
+                                font-size: 3.7rem;
+                                font-weight: 550;
+                                letter-spacing: 2px;
+                            
+                            }
+                            .test_text  i{
+                                font-family:"Beauty" ;
+                                font-size: 3.6rem;
+                            }
+                        
+                            .pratique .back_1{
+                                opacity: 0.20;
+                            }
+                            .pratique .img_2 {
+                                transform: scale(0.9);
+                                margin-left:-30px ;
+                            
+                            }
+                            .pratique .img_1{
+                                margin-top: 90px;
+                            }
+                            .test_text .text-up{
+                                display: block;
+                                bottom:10px ; 
+                                color: #fff;
+                            }
+                            .parte_2{
+                                margin-top: 180px;
+                            }
+                    
+                            .text_col h5{
+                                font-size: 1rem;
+                               
+                                font-family: 'PowerGrotesk';
+                                
+                            }
+                            .text_col h6{
+                                font-family: 'PowerGrotesk';
+                                opacity: 0.3;
+                            }
+                            .parte_2 .img_g{
+                                margin-bottom: 70px;
+                            }
+             
+                          /* **********************************footer******************** */
+        
+            .footer .sonbola_1{
+                position: absolute;
+                left: 30%;
+                top:-60px ; 
+                width: 300px;
+            }
+            .logo_1{
+                margin-top: 50px;
+                margin-bottom: 30px;
+            }
+            .nav_footer  ul{
+                display: flex ;
+                flex-wrap: nowrap;    
+            }
+    
+            .logo  ul{
+                display: flex ;
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+            .logo ul li a{
+                color: #fff;
+                margin: 10px;
+                text-decoration: none;
+            }
+
+}
+@media screen and (max-width:576px){ 
+    /****************************header =*******************/
+
+.rurger_bars_menu h5{
+   font-size: 12px;
+   font-weight: 400;
+}
+.hamburger{
+   width: 40px ; 
+}
+
+.hamburger .bar{
+   height: 1.9px;
+   width: 40px;
+   margin: 4px;
+}
+.header .menu_style li a{
+    font-size: 1.5rem;
+    font-weight: 100;
+
+}
+.hamburger .bar{
+    
+    background-color:#9e8e71;
+    height: 2px;
+    width: 55px;
+    
+    
+}
+
+.hamburger .bar:nth-child(2){
+    width: 35px;
+    right: -17px;
+    top: 12px;
+    position: absolute;
+    margin: 0  auto;
+
+
+}
+
+.header .menu_style{
+   
+    padding: 70px;
+  
+    border-top-left-radius: 0cqmax;
+    border-bottom-left-radius: 0cqmax;
+    width: 575px;
+    outline: none;
+    height: 360px;
+    
+    outline: none;
+    border: 2px solid aqua;
+ }     
+ .header .menu_style li{
+    text-align: center;
+    margin: 5px;
+    
+ }
+.header .text h1{
+   font-size: 25px;
+   font-weight: 500;
+   line-height: normal;
+
+}
+.header .text strong{
+   font-size: 1em;
+}
+.header .btn{
+   padding: 2px;
+   font-size: 16px;
+   font-weight: 200;
+   width: auto;
+   border-radius: 90px;
+}
+.header  .small{
+    transform: scale(0.8);
+}
+.header .img_f{
+   margin: 0 auto;
+   width: 100px;
+}
+/*  img*/
+.hero .img2{
+   position: absolute;
+   top: 120px;
+width: 190px;
+   right: 0px;
+
+}
+.hero .img1 {
+   right:-10px;
+   top: 38px;
+   transform: scale(1.3);
+ 
+
+
+}
+
+/* *********************************about***************************** */
+   .about{
+       background-color:#fff;
+
+   }
+   .text-2{
+       background-color: #fff;
+       top:0px;
+       position: relative;
+   
+   }
+   .text_about strong{
+       color:#e198af;
+   }
+   
+   .img_about {
+       top: 0; 
+    
+       margin-bottom: 0px;
+   }
+   
+   .jabaniya{
+       padding: 30px;
+       position: absolute; 
+       top:-70px ;
+       right: 20px;
+       transform: scale(1.6);
+    
+   }
+   .text_about{
+    
+       padding: 45px;
+       position: relative;
+   
+   }
+   .text_about h1{
+       margin-bottom: 20px;
+       color: #7575c1;
+       font-weight: 200;
+       font-size: 2rem;
+   }
+   
+   .text_about p{
+       font-size: 12px;
+       
+   }
+   .text_about .btn{
+       position:unset;
+       font-size: 1rem;
+       padding: 5px;
+       width: 190px;
+    
+   }
+   .text_about .flech{
+       transform: scale(0.5);
+   }
+
+
+/* **************************************pro********************* */
+
+       .pro{
+           margin-top:-120px;
+           position: relative;
+       }
+       .pro h1{
+           display: block;
+           position:unset;
+           margin-top: 0px;
+           margin-left: 30px;
+           font-size:2rem ;
+           color: #7575c1;
+           font-weight: 600;
+   
+       
+       }
+       .pro h1 span{
+           color:black;
+           font-size: 2rem;
+       }
+       .home-demo{
+           /* padding: 50px; */
+   
+           margin-top: 0;
+       }  
+       .home-demo h2 {
+           /* margin-top: 400=p; */
+           color: black;
+           font-size: 1rem;
+           font-style: italic;
+           font-weight: 500;
+       }
+       .home-demo .photos_1{
+         
+           transform: scale(0.66);
+
+           
+       }
+
+/* *****************************test******************** */
+       .pratique{
+           margin-top: 25px;
+       
+       }
+       .test_text  h2{
+           font-size: 3.5rem;
+           font-weight: 550;
+           letter-spacing: 2px;
+           text-align: center;
+   
+           
+       }
+       .test_text  h1 > i{
+          font-family: "Beauty";
+           font-size: 4.6rem;
+       }
+   
+       .pratique .back_1{
+           opacity: 0.10;
+       }
+       /* .pratique .img_2 {
+        
+       } */
+       .pratique .img_1{
+           margin-top: 90px;
+       }
+       .test_text .text-up{
+           display: block;
+           bottom:50px ; 
+           color: #fff;
+           font-size: 10px;
+       }
+       .text-up h4 h6{
+           transform: scale(0.5);
+       }
+       .parte_2{
+           margin-top: 150px;
+       }
+
+       .text_col h5{
+           font-size: 1rem;
+           line-height: inherit;
+           white-space: nowrap;
+           font-family: 'PowerGrotesk';
+       }
+       .text_col h6{
+           font-family: 'PowerGrotesk';
+           opacity: 0.3;
+       }
+       .parte_2 .img_g{
+           margin-bottom: 70px;
+       }
+      /* **********************************footer******************** */
+        
+      .footer .sonbola_1{
+        position: absolute;
+        left: 24%;
+        top:-40px ; 
+        width: 200px;
+    }
+    .logo_1{
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .nav_footer  ul{
+        display: flex ;
+   
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .nav_footer ul li{
+        margin: 10px;
+    }
+
+    .logo  ul{
+        display: flex ;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .logo ul li a{
+        color: #fff;
+        margin: 10px;
+        text-decoration: none;
+    }
+
+}
+

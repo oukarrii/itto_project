@@ -1,0 +1,373 @@
+@font-face {
+    font-family: "PowerGrotesk";
+    src: url("../font/PowerGrotesk-Regular.woff");
+ }
+ @font-face {
+    font-family:"Maveric" ;
+    src: url("../font/maveric-regular.woff");
+ }
+@font-face {
+    font-family: "MarkPro";
+    src: url("../font/MarkPro.woff");
+}
+
+@font-face {
+    font-family: "MarkPro-Bold";
+    src: url("../font/MarkPro-Bold.woff");
+}
+
+@font-face {
+    font-family: "MarkPro-Medium";
+    src: url("../font/MarkPro-Medium.woff");
+}
+
+@font-face {
+    font-family: "MarkPro-Bold";
+    src: url("../font/MarkPro-Bold.woff");
+}
+
+@font-face {
+    font-family: "Beauty";
+    src: url("../font/BeautyDemo.woff");
+}
+
+.header{
+    height: 80vh;
+}
+.header .Name_c{
+  display: flex;
+  color: #fff;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 300px;
+  font-size: 3em   ;
+  font-family: "PowerGrotesk";
+  
+}
+.header .menu_style{
+    padding: 100px;
+    width: 800px;
+    height: 530px;
+    border-top-right-radius: 0cqmax;
+    border-bottom-left-radius: 0cqmax;
+    outline: none;
+ }     
+ .header .menu_style li {
+ 
+    text-align: center;
+    justify-content: center;
+ }
+
+
+.usin_about{
+    position: relative;
+  
+}
+.text_usin1 h2{
+    color: #cb8fb1;
+    display: block;
+    font-size: 3.4rem;
+    margin-top: 90px;
+    
+    font-family: "PowerGrotesk";
+}
+.text_usin1 h3{
+    font-family: "PowerGrotesk";
+    color: #565656;
+    line-height: 70px;
+    font-size: 1.8rem;
+    padding: 20px;
+    
+}
+.usin_about .app{
+    position: relative;
+    top:-60px ; 
+}
+p{
+    font-size: 1rem;
+    font-family: "MarkPro";
+    color: #666666;
+    line-height: 60px;
+    padding: 10px;
+}
+
+.text_usin2 h2{
+    color: #cb8fb1;
+    display: block;
+    font-size: 4rem;
+
+    
+    font-family: "PowerGrotesk";
+}
+
+.text_usin2 h3{
+    font-family: "PowerGrotesk";
+    color: #565656;
+    line-height: 70px;
+    font-size: 1.2rem;
+
+}
+
+.text_usin2 h4{
+    font-family: "PowerGrotesk";
+    color: #565656;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+.section_usine p{
+    padding: 10px;
+    font-weight: 200;
+    font-size: 20px;
+}
+.section_usine .text-monospace{
+    color: #565656;
+    font-size:3.5rem ;
+    text-shadow: 13px 12px 13px rgba(0, 0, 0, 0.5);
+  
+    
+    
+}
+.section_usine h2{
+    color: #7575c1;
+    font-size: 3rem;
+    font-family: "PowerGrotesk";
+}
+
+.section_usine .fin_h1{
+    
+    font-size: 12px; 
+    color: #7575c1;
+}
+.section_usine .fin_h1::before{
+    
+    content: "";
+    background-image: url("../photos/wheat.png");
+    position: absolute;
+    background-position: center;
+    top: 0;
+    left: 0px;
+    width: 49px;
+    height: 46px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width:1280px) {
+    .header{
+        height: 550px;
+    }
+    .header .menu_style{
+        padding: 130px;
+        width: 1000px;
+        border-top-right-radius: 0cqmax;
+        border-bottom-left-radius: 5cqmax;
+        height: 550px;
+        outline: none;
+     }     
+     .header .menu_style li {
+        text-align: center;
+     }  
+  
+    }
+@media screen and (max-width:1024px) {
+    .header{
+        height: 475px;
+    }
+    .header .menu_style{
+        padding: 10px;
+        width: 1000px;
+        border-top-right-radius: 0cqmax;
+        border-bottom-left-radius: 0cqmax;
+        height: 475px;
+        outline: none;
+     }     
+     .header .menu_style li {
+        text-align: center;
+        font-size: 15px;
+     }
+     .header .menu_style li a{
+
+        font-size: 25px;
+     }
+
+}
+@media screen and (max-width:991px) {
+    .header{
+        height: 470px;
+    }
+    .header{
+        height: 470px;
+    }
+    .header .menu_style{
+        padding: 50px;
+        width: 1000px;
+        height: 469px;
+        border-top-right-radius: 0cqmax;
+        border-bottom-left-radius: 0cqmax;
+        outline: none;
+     }     
+     .header .menu_style li {
+        text-align: center;
+     }
+     .usin_about .app{
+        position: relative;
+        top:0px ; 
+    }
+    .nav_footer li a{
+       
+        margin: 16px;
+    
+    }
+    
+@media screen and (max-width:768px){
+    .header{
+        height: auto;
+    }
+ 
+    .header .Name_c{
+  
+      height: 400px;
+      font-size: 2.5em   ;
+    
+      
+    }
+    
+    .usin_ab
+    .text_usin1 h2{
+        
+        font-size: 3.4rem;
+        margin-top: 90px;
+        
+        
+    }
+    .text_usin1 h3{
+        
+        font-size: 1.8rem;
+        padding: 20px;
+        
+    }
+    .usin_about .app{
+        top:0px ; 
+    }
+    p{
+        font-size: 1rem;
+        padding: 10px;
+    }
+    
+    .text_usin2 h2{
+        font-size: 4rem;
+    }
+    
+    .text_usin2 h3{
+        font-size: 1.2rem;
+    
+    }
+    
+    .text_usin2 h4{
+        font-weight: 700;
+        font-size: 1.7rem;
+    }
+    .section_usine p{
+        padding: 10px;
+        font-weight: 200;
+        font-size: 20px;
+    }
+    .section_usine .text-monospace{
+
+        font-size:3.5rem ;
+    }
+    .section_usine h2{
+        font-size: 3rem;
+    }
+    
+    .section_usine .fin_h1{
+        font-size: 12px; 
+    }
+    .header .menu_style{
+        padding: 50px;
+        width: 800px;
+        border-top-right-radius: 0cqmax;
+        border-bottom-left-radius: 5cqmax;
+        height: 490px;
+        outline: none;
+     }     
+     .header .menu_style li {
+        text-align: center;
+    }
+    
+
+}
+@media screen and (max-width:576px){
+    .header{
+        height: 375px;
+    }   
+
+    .header .menu_style{
+        padding: 50px;
+        width: 500px;
+        height: 375px;
+        outline: none;
+     }     
+     .header .menu_style li a {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-left:25%;
+     }
+    .header .Name_c{
+      height: 230px;
+      font-size: 2.5em   ;
+    }
+    
+    .usin_about{
+        position: relative;
+      
+    }
+    .text_usin1 h2{
+        font-size: 2.5rem;
+        margin-top: 90px;
+    }
+    .text_usin1 h3{
+        font-size: 1.5rem;
+        padding: 20px;
+        
+    }
+    .usin_about .app{
+        top:0px ; 
+    }
+    p{
+        font-size: 1rem;
+        padding: 10px;
+    }
+    
+    .text_usin2 h2{
+        font-size: 2.9rem;
+    }
+    
+    .text_usin2 h3{
+        font-size: 1rem;
+    
+    }
+    
+    .text_usin2 h4{
+        font-size: 1.2rem;
+    } 
+    .section_usine p{
+        padding: 10px;
+        font-weight: 200;
+        font-size: 20px;
+    }
+    .section_usine .text-monospace{
+        font-size:2.2rem ;
+    }
+    .section_usine h2{
+        font-size: 2rem;
+     
+    }
+    
+    .section_usine .fin_h1{
+        font-size: 16px; 
+      
+    }
+   
+ 
+}}
